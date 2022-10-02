@@ -25,7 +25,7 @@ void solve(){
         }
         else hi=mid-1;
     }
-    cout<<ans<<endl;
+    cout<<ans;
 }
 
 
@@ -38,6 +38,7 @@ int main(){
     t=1;
     while(t--){
         solve();
+        cout<<endl;
     }
     return 0;
 }
