@@ -3,6 +3,11 @@ using namespace std;
 
 #define ll long long
 
+const int MAX_N = 1e5 + 5;
+const ll MOD = 1e9 + 7;
+const ll INF = 1e9;
+const ld EPS = 1e-9;
+
 bool isValid(int a[],int n,int l,int m){
     long long w=0;
     for(int i=0;i<n;i++){
