@@ -14,12 +14,17 @@ bool isValid(int a[],int n,int l,int m){
 
 void solve(){
     int n,m;
-    cin>>n>>m;
+    cin >> n >> m;
     int a[n];
-    for(int i=0;i<n;i++)cin>>a[i];
-    long long ans=0;
-    long long lo=0,hi=*max_element(a,a+n);
-    while(lo<=hi){
+    for(int i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    ll ans=0;
+    ll lo=0,hi=*max_element(a,a+n);
+    
+    while(lo<=hi)
+    {
         long long mid=lo +( hi-lo)/2;
         if(isValid(a,n,mid,m)){
             ans=mid;
@@ -27,6 +32,7 @@ void solve(){
         }
         else hi=mid-1;
     }
+    
     cout<<ans;
 }
 
