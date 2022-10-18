@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define ll long long
+
 bool isValid(int a[],int n,int l,int m){
     long long w=0;
     for(int i=0;i<n;i++){
