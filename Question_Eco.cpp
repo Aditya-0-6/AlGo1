@@ -19,7 +19,6 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 #define sza(x) ((int)x.size())
 #define all(a) (a).begin(), (a).end()
 
-
 const int MAX_N = 1e5 + 5;
 const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
@@ -60,10 +59,8 @@ void solve(){
 
 
 
-int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
+int main()
+{
     int t;
     t=1;
     while(t--){
